@@ -1,0 +1,53 @@
+#views{
+    height: 20rem;
+}
+#logo{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%; 
+}
+.cards{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5em;
+}
+#title{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 13px;
+    padding-left: 10px;
+}
+.logo-title{
+    padding-top: 5px;
+    display:flex;
+}
+a{
+    text-decoration: none;
+}
+#user{
+    padding-left: 58px;
+}
+.views-date{
+    padding-left: 57px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+.container{
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.card{
+    width: 30%;
+}
+.search-bar{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    
+}
+input#search-bar{
+    border: 1px solid #191816;
+    border-radius: 5px;
+}
