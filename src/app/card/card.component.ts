@@ -7,7 +7,7 @@ import { CardVideoList } from '../models/CardVideo';
   styleUrls: ['./card.component.scss']
 })
 export class CardComponent implements OnInit {
-@Input () cardChild: CardVideoList = new CardVideoList("", "", "", "", "", "");
+@Input () cardChild: CardVideoList = new CardVideoList("", "", "", "", "", "", false);
   constructor() { }
 
   ngOnInit(): void {

@@ -1,8 +1,20 @@
-<div>
-{{cardChild.logo}}
-{{cardChild.link}}
-{{cardChild.title}}
-{{cardChild.user}}
-{{cardChild.views}}
-{{cardChild.updatedAt}}
-</div>
+
+
+   
+        <div class="card">
+            <div class="card-img"><img [src]="cardChild.link" [alt]="cardChild.link" id="link"></div>
+            
+            <div class="logo-title">
+                <img [src]="cardChild.logo" [alt]="cardChild.logo" id="logo">
+                <a href="" id="title">{{cardChild.title}}</a>
+            </div>
+            <a href="" id="user">{{cardChild.user}}</a>
+            <div *ngIf>
+                <div class="views-date">
+                    <a href="" id="views">{{cardChild.views}}</a>
+                    <a href="" id="updatedAt">{{cardChild.updatedAt}}</a>
+                </div>
+            </div>
+            <div else></div>
+        </div>
+   

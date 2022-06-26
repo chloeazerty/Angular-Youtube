@@ -5,6 +5,7 @@ export class CardVideoList{
         public title: string,
         public user: string,
         public views: string,
-        public updatedAt: string
+        public updatedAt: string, 
+        public isLive: boolean
     ){}
 }

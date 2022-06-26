@@ -15,7 +15,8 @@ export class CardVideoListComponent implements OnInit {
     "Relaxing music",
     "Jazz & Blues", 
     "1.5M views  -", 
-    "1 week ago"),
+    "1 week ago",
+    true),
 
     new CardVideoList(
     "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fG11c2ljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60", 
@@ -23,15 +24,17 @@ export class CardVideoListComponent implements OnInit {
     "House relax",
     "Haa Taa Deep", 
     "1.5M views  -", 
-    "2 weeks ago"), 
+    "2 weeks ago",
+    false), 
 
     new CardVideoList(
-    "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80", 
-    "https://images.unsplash.com/photo-1510906594845-bc082582c8cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1444&q=80",
+    "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fG11c2ljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60", 
+    "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fG11c2ljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
     "Chill Guitar Night",
     "Chillhop Guitar", 
     "1.2M views -",
-    "3 weeks ago"), 
+    "3 weeks ago",
+    true), 
 
     new CardVideoList(
     "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80", 
@@ -39,7 +42,8 @@ export class CardVideoListComponent implements OnInit {
     "Morning Jazz",
     "Chillhop Guitar", 
     "1.5M views -",
-    "4 weeks ago"), 
+    "4 weeks ago",
+    false), 
 
     new CardVideoList(
     "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80", 
@@ -47,7 +51,8 @@ export class CardVideoListComponent implements OnInit {
     "Cardio Music",
     "Cardio Boom", 
     "1.5M views -",
-    "5 weeks ago"), 
+    "5 weeks ago",
+    true), 
 
     new CardVideoList(
     "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80", 
@@ -55,7 +60,8 @@ export class CardVideoListComponent implements OnInit {
     "Summer Vibe",
     "Deep Light", 
     "1.5M views -",
-    "6 weeks ago"), 
+    "6 weeks ago",
+    false), 
           
     new  CardVideoList(
     "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80", 
@@ -63,7 +69,8 @@ export class CardVideoListComponent implements OnInit {
     "Peaceful Piano",
     "Peaceful Piano", 
     "1.9M views -",
-    "7 weeks ago"), 
+    "7 weeks ago",
+    true), 
 
     new  CardVideoList(
     "https://images.unsplash.com/photo-1619983081563-430f63602796?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bXVzaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60", 
@@ -71,7 +78,8 @@ export class CardVideoListComponent implements OnInit {
     "Cuba Café",
     "Cuba Café", 
     "1.2M views -",
-    "8 weeks ago"), 
+    "8 weeks ago",
+    false), 
               
     new CardVideoList( 
     "https://images.unsplash.com/photo-1485579149621-3123dd979885?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bXVzaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60", 
@@ -79,7 +87,8 @@ export class CardVideoListComponent implements OnInit {
     "Show Blues",
     "Show Blues", 
     "1.4M views -",
-    "9 weeks ago"), 
+    "9 weeks ago",
+    true), 
                 
     new CardVideoList(
     "https://images.unsplash.com/photo-1499415479124-43c32433a620?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bXVzaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60", 
@@ -87,7 +96,8 @@ export class CardVideoListComponent implements OnInit {
     "Hip Hop",
     "Hip Hop", 
     "1.8M views -",
-    "10 weeks ago"), 
+    "10 weeks ago",
+    false), 
                   
     new CardVideoList(
     "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fG11c2ljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60", 
@@ -95,7 +105,8 @@ export class CardVideoListComponent implements OnInit {
     "Funky Soul",
     "Funky Soul", 
     "1.9M views -",
-    "11 weeks ago"), 
+    "11 weeks ago",
+    true), 
                     
     new CardVideoList(
    "https://images.unsplash.com/photo-1496293455970-f8581aae0e3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG11c2ljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60", 
@@ -103,7 +114,8 @@ export class CardVideoListComponent implements OnInit {
   "Disco Queen",
   "Disco Queen", 
   "1.1M views -",
-  "12 weeks ago"),             
+  "12 weeks ago",
+  false),             
   ];
 
   

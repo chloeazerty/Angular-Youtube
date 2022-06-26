@@ -1,0 +1,56 @@
+
+.cards{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5em;
+}
+
+a#views{
+    height: 20rem;
+}
+#logo{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%; 
+}
+#link{
+   max-width: 100%;
+    
+}
+
+#title{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 13px;
+    padding-left: 10px;
+}
+.logo-title{
+    padding-top: 5px;
+    display:flex;
+}
+a{
+    text-decoration: none;
+}
+#user{
+    padding-left: 58px;
+}
+.views-date{
+    padding-left: 57px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+.container{
+    margin-right: 2%;
+    margin-left: 2%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+.card-img{
+    width: 95%;
+}
